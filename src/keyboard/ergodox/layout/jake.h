@@ -7,8 +7,8 @@
  * ------------------------------------------------------------------------- */
 
 
-#ifndef KEYBOARD__ERGODOX__LAYOUT__DEFAULT_h
-	#define KEYBOARD__ERGODOX__LAYOUT__DEFAULT_h
+#ifndef KEYBOARD__ERGODOX__LAYOUT__JAKE_h
+	#define KEYBOARD__ERGODOX__LAYOUT__JAKE_h
 
 	#include "../controller.h"
 
