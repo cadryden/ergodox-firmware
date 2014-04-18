@@ -27,7 +27,8 @@ void kbfun_layer_pop_all(void) {
   kbfun_layer_pop_10();
 }
 
-// DEFINITIONS ----------------------------------------------------------------
+// DEFINITIO=NS ----------------------------------------------------------------
+#define  mprrel   &kbfun_mediakey_press_release
 #define  kprrel   &kbfun_press_release
 #define  ktog     &kbfun_toggle
 #define  ktrans   &kbfun_transparent
@@ -101,7 +102,7 @@ KB_MATRIX_LAYER(
 	KEY_F12,	KEY_F6,	KEY_F7,	KEY_F8,	KEY_F9,	KEY_F10,	KEY_VolumeUp,	
 	0,	0,	0,	KEY_Insert,	KEY_Home,	KEY_PageUp,	KEY_VolumeDown,	
 	0,	0,	KEY_DeleteForward,	KEY_End,	KEY_PageDown,	KEY_Mute,	
-	0,	0,	0,	0,	0,	0,	0,	
+	0,	0,	0,	0,	0,	0,	MEDIAKEY_PLAY_PAUSE,
 	0,	0,	0,	0,	0,	
 	0,	0,	
 	0,	0,	0,	
@@ -336,7 +337,7 @@ KB_MATRIX_LAYER(
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	NULL,	NULL,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	
 	NULL,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	
-	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	
+	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	mprrel,	
 	NULL,	NULL,	NULL,	NULL,	NULL,	
 	NULL,	NULL,	
 	NULL,	NULL,	NULL,	
@@ -571,7 +572,7 @@ KB_MATRIX_LAYER(
 	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	kprrel,	
 	NULL,	NULL,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	
 	NULL,	NULL,	kprrel,	kprrel,	kprrel,	kprrel,	
-	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	
+	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	mprrel,
 	NULL,	NULL,	NULL,	NULL,	NULL,	
 	NULL,	NULL,	
 	NULL,	NULL,	NULL,	
