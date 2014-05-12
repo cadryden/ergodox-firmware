@@ -74,7 +74,7 @@ KB_MATRIX_LAYER(
 	KEY_LeftGUI,	KEY_GraveAccent_Tilde,	KEY_Backslash_Pipe,	KEY_LeftArrow,	KEY_RightArrow,	
 	KEY_LeftControl,	KEY_LeftAlt,	
 	0,	0,	KEY_Home,	
-	KEY_DeleteBackspace,	KEY_LeftAlt,	KEY_DeleteBackspace,	
+	KEY_Spacebar,	KEY_LeftAlt,	KEY_DeleteBackspace,	
 	// right hand
 	2,	KEY_6_Caret,	KEY_7_Ampersand,	KEY_8_Asterisk,	KEY_9_LeftParenthesis,	KEY_0_RightParenthesis,	KEY_Dash_Underscore,	
 	KEY_LeftBracket_LeftBrace,	KEY_j_J,	KEY_u_U,	KEY_r_R,	KEY_l_L,	KEY_Semicolon_Colon,	KEY_RightBracket_RightBrace,	
