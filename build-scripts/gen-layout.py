@@ -413,7 +413,14 @@ keycode_to_string = {
 		0xE5: "R-Shift",
 		0xE6: "R-Alt",
 		0xE7: "R-GUI",
-		}
+        0x00: "MK-PlayPause",
+        0x01: "MK-Stop"
+        0x02: "MK-PrevTrack",
+        0x03: "MK-NextTrack",
+        0x04: "MK-AudioMute",
+        0x05: "MK-AudioVolUp",
+        0x06: "MK-AudioVolDown",
+}
 
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
